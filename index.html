@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kubis Test</title>
+</head>
+
+<body>
+    <!-- navbar and logo section -->
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <!-- navbar logo -->
+            <a class="navbar-brand" href="#"><img src="assets/logo.png" class="img-fluid" max-width="100%" alt=""></a> 
+            <!-- navbar hamburger -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-4">
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="about" href="#">Despre proiect</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="portfolio" href="#">Arhiva</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="blog" href="#">Agentii</a> 
+                    </li>
+
+                    <button class="btn btn-light" type="button">Inscrie un site <i class="fas fa-arrow-right"></i></button>
+                </ul>
+            </div>
+        </nav>
+    </div> <!-- end navbar and logo -->
+
+    <!-- main section-->
+    <div class="jumbotron jumbotron-fluid bg-dark pt-4 pb-4">
+        <div class="container">
+            <div class="row">
+                <!-- image column -->
+                <div class="col-12 col-md-8">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="assets/slider-1.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/slider-1.jpg" alt="Second slide">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <!-- description column -->
+                <div class="col-12 col-md-4">
+                    <div class="number bg-white">450</div>
+                    <p>22.06.2009</p>
+                    <h4 class="text-white">Porsche Panamera</h4>
+                    <p>Companie: <span class="text-white font-weight-bold">F-I</span></p>
+                    <p>Client: <span class="text-white font-weight-bold">Porsche</span></p>
+                    <p class="font-weight-light">Acest proiect isi propune sa trateze gestiunea operatiilor la o agentie de turismLorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quos in assumenda delectus, modi tenetur repudiandae mollitia dignissimos omnis minima, pentru a se tine o evidenta clara a programarilor.</p>
+
+                    <a href="#" class="btn btn-light float-right smaller">
+                        viziteaza website <i class="fas fa-arrow-alt-circle-right"></i>
+                    </a><br>
+                    <hr>
+                    <a href="#" class="btn btn-light smaller">
+                        <i class="fas fa-arrow-left"></i> siteul anterior
+                    </a>
+                    <a href="#" class="btn btn-light float-right smaller">
+                        siteul urmator <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <!-- fixed links -->
+    <div class="fixed-links sticky-top">
+        <a href="#" class="text-white bg-dark p-2 rounded"><i class="fas fa-comment-alt"></i></a>
+        <a href="http://www.twitter.com" class="text-white bg-dark p-2 rounded"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white bg-dark p-2 rounded"><i class="fas fa-question"></i></a>
+    </div>
+    <!-- cards section -->
+    <div class="container">
+        <h4>Voteaza site-ul de maine!</h4><br>
+        <div class="row"> 
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <div class="card mb-2" onclick="location.href='#'">
+                    <div class="card-number bg-dark text-white">122</div>
+                    <img class="card-img-top" src="assets/cat-1.jpg" alt="Card image caption">
+                    <div class="card-body p-3">
+                        <div class="social">
+                            <a href="http://www.twitter.com" class="text-dark"><i class="fab fa-twitter"></i></a>
+                            <a href="http://www.facebook.com" class="text-dark"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/Smile" class="text-dark"><i class="fas fa-grin-stars"></i></a>
+                        </div>
+                    <h5 class="card-title">BIO</h5>
+                    <p>Autor: <span class="font-weight-bold">Korea Style</span></p>
+                    <p class="card-text">Acest proiect isi propune sa trateze gestiunea operatiilor la o agentie de turism si anume sa tinem evidenta ofertelor, clientilor si programarilor care se fac in agentie <i class="fas fa-caret-right"></i></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <div class="card mb-2" onclick="location.href='#'">
+                    <img class="card-img-top" src="assets/cat-2.jpg" alt="Card image caption">
+                    <div class="card-number bg-dark text-white">108</div>
+                    <div class="card-body p-3">
+                        <div class="social">
+                            <a href="http://www.twitter.com" class="text-dark"><i class="fab fa-twitter"></i></a>
+                            <a href="http://www.facebook.com" class="text-dark"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/Smile" class="text-dark"><i class="fas fa-grin-stars"></i></a>
+                        </div>
+                        <h5 class="card-title">Adidas Original</h5>
+                        <p>Autor: <span class="font-weight-bold">Sid Lee, Hue Web Studio</span></p>
+                        <p class="card-text">Angajatii agentiei vor introduce in calculator toate ofertele agentiei. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi doloribus error quam ex? Iusto corporis. <i class="fas fa-caret-right"></i></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <div class="card mb-2" onclick="location.href='#'">
+                    <img class="card-img-top" src="assets/cat-3.jpg" alt="Card image caption">
+                    <div class="card-number bg-dark text-white">197</div>
+                    <div class="card-body p-3">
+                        <div class="social">
+                            <a href="http://www.twitter.com" class="text-dark"><i class="fab fa-twitter"></i></a>
+                            <a href="http://www.facebook.com" class="text-dark"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/Smile" class="text-dark"><i class="fas fa-grin-stars"></i></a>
+                        </div>
+                        <h5 class="card-title">Intru 3D</h5>
+                        <p>Autor: <span class="font-weight-bold">2fresh, Hue Web Studio</span></p>
+                        <p class="card-text">Tinem evidenta ofertelor, clientilor si programarilor Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, officia. <i class="fas fa-caret-right"></i></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <div class="card mb-2" onclick="location.href='#'">
+                    <img class="card-img-top" src="assets/cat-4.jpg" alt="Card image caption">
+                    <div class="card-number bg-dark text-white">128</div>
+                    <div class="card-body p-3">
+                        <div class="social">
+                            <a href="http://www.twitter.com" class="text-dark"><i class="fab fa-twitter"></i></a>
+                            <a href="http://www.facebook.com" class="text-dark"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/Smile" class="text-dark"><i class="fas fa-grin-stars"></i></a>
+                        </div>
+                        <h5 class="card-title">Wulffmorgenthaler</h5>
+                        <p>Autor: <span class="font-weight-bold">Korea Style</span></p>
+                        <p class="card-text">Acest proiect isi proune sa trateze gestiunea Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maiores sed ad quisquam. <i class="fas fa-caret-right"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <div class="card mb-2" onclick="location.href='#'">
+                    <img class="card-img-top" src="assets/cat-5.jpg" alt="Card image caption">
+                    <div class="card-number bg-dark text-white">235</div>
+                    <div class="card-body p-3">
+                        <div class="social">
+                            <a href="http://www.twitter.com" class="text-dark"><i class="fab fa-twitter"></i></a>
+                            <a href="http://www.facebook.com" class="text-dark"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/Smile" class="text-dark"><i class="fas fa-grin-stars"></i></a>
+                        </div>
+                        <h5 class="card-title">Quack</h5>
+                        <p>Autor: <span class="font-weight-bold">Sid Lee, Hue Web Studio</span></p>
+                        <p class="card-text">Angajatii agentiei vor introduce in calculator toate ofertele agentiei. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi doloribus error quam ex? Iusto corporis. <i class="fas fa-caret-right"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <div class="card mb-2" onclick="location.href='#'">
+                    <img class="card-img-top" src="assets/cat-6.jpg" alt="Card image caption">
+                    <div class="card-number bg-dark text-white">164</div>
+                    <div class="card-body p-3">
+                        <div class="social">
+                            <a href="http://www.twitter.com" class="text-dark"><i class="fab fa-twitter"></i></a>
+                            <a href="http://www.facebook.com" class="text-dark"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/Smile" class="text-dark"><i class="fas fa-grin-stars"></i></a>
+                        </div>
+                        <h5 class="card-title">Liness</h5>
+                        <p>Autor: <span class="font-weight-bold">2fresh, Hue Web Studio</span></p>
+                        <p class="card-text">Tinem evidenta ofertelor, clientilor si programarilor Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, officia. <i class="fas fa-caret-right"></i></p>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end card rows section -->
+        <hr>
+        <!-- footer -->
+        <footer class="footer-bottom p-3">
+                <p><img src="assets/logo.png" width="30px" alt=""> © 2010 <strong>unSITEpeZI</strong></p>
+        </footer>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
